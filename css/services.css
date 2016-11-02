@@ -1,0 +1,102 @@
+/*services1设置开始*/
+.services-main1{
+    background-color: #EAEAEA;
+    padding-top: 28px;
+    padding-bottom: 60px;
+}
+.services-main1 .services-main1-left{
+    width: 276px;
+    border-right: 1px solid #ccc;
+}
+.services-main1 .services-main1-center{
+    width: 286px;
+    padding-left: 38px;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #FFFFFF;
+}
+.services-main1 .services-main1-right{
+    width: 274px;
+    padding-left: 38px;
+    border-left: 1px solid #FFFFFF;
+}
+.services-main1  div.content{
+    padding-bottom: 30px;
+}
+.services-title1{
+    font-size: 32px;
+    line-height: 32px;
+    padding-bottom: 15px;
+}
+.services-title2{
+    font:14px Arial, Helvetica, sans-serif;
+    font-weight:700 ;
+    color: #000000;
+    line-height: 36px;
+}
+.services-text{
+    font:14px Arial, Helvetica, sans-serif;
+    color: #000000;
+    line-height: 20px;
+
+    padding-right: 40px;
+}
+.services-text>a{
+    color:#13C5FF;
+}
+.services-text>a:hover{
+    color:#000;
+}
+/*services2设置开始*/
+.services-main2{
+    background-color: #363636;
+    padding-top: 28px;
+    padding-bottom: 60px;
+}
+.services-main2 .services-main2-left{
+    width: 610px;
+    border-right: 1px solid #000;
+}
+.services-main2 .services-main2-title{
+font-size: 32px;
+line-height: 32px;
+padding-bottom: 25px;
+}
+.services-main2 p{
+color: #fff;
+}
+.services-main2 .director{
+margin-bottom: 30px;
+}
+.services-main2 .director img{
+background: transparent;
+float: left;
+margin: 0 24px 0 5px;
+}
+
+.director p{
+float: left;
+width: 403px;
+padding-bottom: 5px;
+}
+.director p a{
+color: #13C5FF;
+text-decoration: underline;
+}
+.director p a:hover{
+text-decoration: none;
+}
+.director .director-text{
+padding-top: 24px;
+}
+.services-main2 .services-main2-right{
+    border-left: 1px solid #4F4F4F;
+    width:244px;
+    height: 367px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.services-main2-right>.director-text{
+    padding-bottom: 20px;
+    font:14px Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}

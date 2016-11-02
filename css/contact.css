@@ -1,0 +1,108 @@
+/*服务内容1设置*/
+.contact-main1{
+    background-color: #EAEAEA;
+}
+.contact-main1 p.contact-from{
+    font-size: 32px;
+    line-height: 100px;
+}
+.contact-main1 .customer p{
+    height: 30px;
+
+}
+.contact-main1 .customer span{
+    width: 114px;
+    height: 28px;
+    line-height: 28px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;
+    float: left;
+}
+.customer .yourname,.customer #youremail{
+    height: 16px;
+    width: 767px;
+    line-height: 28px;
+    padding: 5px;
+    max-width: 916px;
+    font: 14px Arial, Helvetica, sans-serif;
+    border: 1px solid #d7d7d7;
+}
+.textarea_box{
+    width: 893px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.textarea_box .btn{
+    margin-left: 114px;
+}
+.textarea_box button{
+    display: inline-block;
+    height: 30px;
+    width: 60px;
+    border: 0;
+    padding-right: 10px;
+    color: #ffffff;
+    margin-top: 20px;
+    background-color: #13C5FF;
+    line-height: 30px;
+}
+.textarea_box button:hover{
+    background-color: #0f0f0f;
+}
+.customer textarea{
+    width: 773px;
+    min-height: 30px;
+    font: 14px Arial, Helvetica, sans-serif;
+}
+
+    /*服务内容设置2*/
+.contact-main2{
+    background-color: #363636;
+    height: 225px;
+    padding-top: 40px;
+}
+.contact-main2 p.contact-my{
+    font-size: 32px;
+    line-height: 32px;
+}
+.contact-main2-left{
+    padding-left: 10px;
+    padding-right: 45px;
+    width: 580px;
+    height: 166px;
+    border-right: 1px solid #2E2E2E;
+}
+.contact-main2-left .contact-my-content{
+    padding-top: 10px;
+    font:14px Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+.contact-main2-ringht{
+    padding-left: 45px;
+    height: 166px;
+    width: 234px;
+    border-left: 1px solid #545454;
+}
+.contact-main2 p{
+    color: #ffffff;
+}
+.contact-main2-ringht ul {
+    width: 100px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 26px;
+    margin-top: 10px;
+}
+.contact-main2-ringht .ul2{
+    font-weight: 400;
+}
+.ul2 .email a{
+    color: #13C5FF;
+    text-decoration: underline;
+}
+.ul2 .email a:hover{
+    text-decoration: none;
+}
+
+

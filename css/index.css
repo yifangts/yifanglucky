@@ -1,0 +1,108 @@
+html,body,p,h1,h2,h3,ul,li,form,input,img,dl,dd,dt{
+    padding: 0;
+    margin:0;
+    font-size: 12px;
+}
+input,img{
+    border: 0;
+}
+img{
+    vertical-align: middle;
+
+}
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+/*输入字居中显示*/
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+li,ul,ol{
+    list-style: none;
+}
+h1,h2,h3,b,strong{
+    font-weight: normal;
+    font-size:12px;
+}
+.clearfix:after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    display:block;
+    visibility:hidden;
+    clear: both;
+}
+.ar {
+    text-align: right;
+}
+.ac{
+    text-align: center;
+}
+.clearfix{
+    zoom:1;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.w{
+    width: 916px;
+    margin: 0 auto;
+}
+/*common 结束*/
+/*heard 开始*/
+.body1{
+    background: url("../images/bg_top_img.jpg") repeat-x;
+}
+.heard{
+    padding-top:37px;
+    height: 94px;
+    /*background:url("../images/bg");*/
+}
+.heard h1{
+    float: left;
+}
+.heard form .text{
+    width: 148px;
+    padding: 5px 8px;
+    background: #fff;
+}
+.heard form .btn {
+    width: 26px;
+    height: 26px;
+    background: url("../images/search.gif");
+}
+.heard ul{
+    margin-top: 35px;
+}
+.heard ul li{
+    float: left;
+    font-size: 16px;
+    margin-right: 20px;
+    font-family: "Arial";
+}
+.heard ul li i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../images/menu_marker.png") no-repeat;
+    vertical-align: middle;
+    margin-top: 7px;
+}
+.heard ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.heard ul li a:hover{
+    color: skyblue;
+}

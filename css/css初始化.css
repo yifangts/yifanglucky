@@ -1,0 +1,168 @@
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+fieldset, img, input,  {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+ul, ol {
+    list-style: none;
+}
+/*去掉原样式中的小黑点*/
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+select, input {/*垂直居中对齐*/
+    vertical-align: middle;
+}
+
+/*输入字居中显示*/
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+/**/
+
+/*防止拖动*/
+img {
+    border: 0;
+    vertical-align: middle; /*  去掉图片底部默认的3像素空白缝隙*/
+}
+table {
+    border-collapse: collapse; /*表格合并外连线*/
+}
+body {
+    font: 14px Arial, Helvetica, sans-serif; /*unitedCode的写法，宋体的写法*/
+    color: #666; /*150%基于当前字体尺寸的百分比行间距*/
+    background: #fff;
+}
+.clearfix:before, .clearfix:after {
+    /*清除浮动，最好最标准的写法*/
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1; /*IE/7/6*/  /*兼容IE6下的写法*/
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+/*公共类*/
+.w {
+    /*版心 提取 */
+    width: 916px;
+    margin: 0 auto;
+}
+.fl {/*左浮动*/
+    float: left;
+}
+
+.fr {/*右浮动*/
+    float: right;
+}
+/*文字靠左对齐*/
+.al {
+    text-align: left;
+}
+/*文字居中对齐*/
+.ac {
+    text-align: center;
+}
+/*文字靠右对齐*/
+.ar {
+    text-align: right;
+}
+/*显示属性隐藏*/
+.hide {
+    display: none;
+}
+/*css初始化完成*/
+/*heard 开始*/
+.body1{
+    background: url("../images/bg_top_img.jpg") repeat-x;
+}
+.heard{
+    padding-top:37px;
+    height: 94px;
+    /*background:url("../images/bg");*/
+}
+.heard h1{
+    float: left;
+}
+.heard form .text{
+    width: 148px;
+    padding: 5px 8px;
+    background: #fff;
+}
+.heard form .btn {
+    width: 26px;
+    height: 28px;
+    background: url("../images/search.gif");
+    border: 1px solid #ccc;
+}
+.heard ul{
+    margin-top: 35px;
+}
+.heard ul li{
+    float: left;
+    font-size: 16px;
+    margin-right: 20px;
+    font-family: "Arial";
+}
+.heard ul li i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../images/menu_marker.png") no-repeat;
+    vertical-align: middle;
+    margin-top: 7px;
+}
+.heard ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.heard ul li a:hover{
+    color: skyblue;
+}
+/*底部S*/
+.footer{
+    height: 128px;
+    background-color: #111;
+    overflow: hidden;
+}
+.footer .foot1{
+    height: 32px;
+    margin:48px 0 0 237px;
+    color: #6B6B6B;
+}
+.footer .foot1 a{
+    color: #13C5FF;
+    text-decoration:underline;
+}
+.foot1 ul{
+    line-height: 32px;
+}
+.foot1 ul li{
+    float: left;
+    padding-right:14px;
+}
+/*底部E*/

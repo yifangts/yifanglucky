@@ -1,0 +1,99 @@
+/*about内容设置开始*/
+/*内容1*/
+.about-main1{
+    background-color: #EAEAEA;
+    height: 615px;
+}
+.about-main1 p.about-me{
+    font-size: 32px;
+    line-height: 100px;
+}
+.about-main1 p.about-me-title{
+    line-height: 20px;
+    font-weight: bolder;
+    color: #0F0F0F;
+    font-size:14px;
+    font-family: Arial;
+}
+.about-main1 p.about-me-content{
+    font:14px Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    margin-top: 30px;
+    color: #0F0F0F;
+    padding: 0px 5px;
+}
+.about-main1 .p1{
+    margin-left: 268px;
+}
+.about-main1 .about-me-content a{
+    color: #13C5FF;
+}
+.about-me-content a.readmore{
+    display: block;
+    height: 30px;
+    width: 95px;
+    color: #ffffff;
+    margin-top: 20px;
+    background-color: #13C5FF;
+    line-height: 30px;
+}
+.about-me-content a.readmore:hover{
+    background-color: #0f0f0f;
+}
+/*内容2*/
+.about-main2{
+    background-color: #363636;
+    height: 486px;
+    padding-top: 40px;
+}
+.about-main2-left{
+    padding-left: 10px;
+    padding-right: 45px;
+    width: 446px;
+    height: 388px;
+    border-right: 1px solid #2E2E2E;
+}
+.about-main2-left p{
+    width: 400px;
+}
+.about-main2-ringht{
+    padding-left: 45px;
+    height: 388px;
+    width: 368px;
+    border-left: 1px solid #545454;
+}
+.about-main2 p.about-my{
+    font-size: 32px;
+    line-height: 80px;
+}
+.about-main2 p{
+    color: #ffffff;
+}
+.about-main2 p.about-my-title{
+    line-height: 20px;
+    font-weight: bolder;
+    font-size:14px;
+    font-family: Arial;
+    padding: 5px 0px;
+}
+.about-my-content{
+    padding-bottom: 20px;
+    font:14px Arial, Helvetica, sans-serif;
+}
+.about-main2-ringht img{
+    padding-right: 25px;
+    vertical-align: middle;
+}
+.about-my-content a.readmore{
+    display: block;
+    height: 30px;
+    width: 95px;
+    color: #ffffff;
+    margin-top: 20px;
+    background-color: #13C5FF;
+    line-height: 30px;
+}
+.about-my-content a.readmore:hover{
+    background-color: #fff;
+    color: #000000;
+}
